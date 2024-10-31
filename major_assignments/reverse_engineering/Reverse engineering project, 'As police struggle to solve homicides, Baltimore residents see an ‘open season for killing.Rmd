@@ -1,0 +1,259 @@
+---
+title: "Reverse Engineering Project"
+author: "Liam Bowman, Peter Riccio, Andrew Mollenauer"
+date: "Date here"
+output:
+  html_document:
+    theme: cerulean
+    highlight: pygments
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+In this notebook, we are reverse engineering the story, [STORY NAME](STORY%20URL)
+
+## Load libraries
+
+Loading required libraries for this analysis.
+
+```{r echo=FALSE, message=FALSE}
+library (tidyverse)
+library(lubridate)
+library(janitor)
+install.packages('reshape2')
+library (reshape2)
+```
+
+## Load and Cleaning Data
+
+In this section, describe the source of the data, write a basic data dictionary for data you are working with, and discuss any caveats or issues you discovered working with this data.
+
+```{r}
+# Load required data
+
+homicide_data <- read_csv('data/homicide_data.csv') |> rename (date = reported_date) |> mutate (date=ymd(date))
+
+#baltimore_homicides |> group_by (year) |> summarise (total_homicide = sum(n())) |> arrange(desc(total_homicide))
+
+```
+
+## Sentences to Engineer
+
+In this notebook, we are reverse engineering five sentences from the story.
+
+### Sentence 1
+
+-   **Sentence text**: “City police made an arrest in 41 percent of homicides in 2014; last year, the rate was just 27 percent, a 14 percentage point drop.”
+-   **Analysis summary**: We were able to write code to reverse engineer the exact arrest rate that the Post got. It might have been a circuitous route, but we made separate date frames for the years, calculated the percentage of homicides closed by arrest for each, then joined them into a combined data frame.
+
+```{r}
+# Put code to reverse engineer sentence here
+
+b2014_arrest <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2014")) |> 
+  filter(str_detect(disposition, "Closed by arrest"))|> 
+           summarise(arrests2014 = sum(n()))
+
+b2014_homicides <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2014")) |> 
+  summarise(homicides2014 = sum(n()))
+
+b2014_arrests_and_homicides <- b2014_homicides |> full_join (b2014_arrest, join_by(city))
+
+b2014_arrests_and_homicides <- b2014_arrests_and_homicides |> mutate(
+  arrest_rate_2014 = arrest_rate_2014 <- (arrests2014/homicides2014) *100)
+
+b2017_arrest <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2017"))|>
+           filter(str_detect(disposition, "Closed by arrest")) |>
+           summarise(arrests2017 = sum(n()))
+         
+         
+b2017_homicides <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2017")) |>
+  summarise (homicides2017 = sum(n()))
+
+b2017_arrests_and_homicides <- b2017_homicides |> full_join(b2017_arrest, join_by(city))
+
+b2017_arrests_and_homicides <- b2017_arrests_and_homicides |> mutate(
+  arrest_rate_2017 = arrest_rate_2017 <- (arrests2017/homicides2017) *100)
+
+baltimore_combined_years <- b2014_arrests_and_homicides |> inner_join (b2017_arrests_and_homicides, join_by (city))
+
+baltimore_combined_years
+
+  
+
+
+# Display results of code below this codeblock
+
+```
+
+\|
+
+### Sentence 2
+
+-   **Sentence text**: “Of 50 of the nation’s largest cities, Baltimore is one of 34 where police now make homicide arrests less often than in 2014, according to a Washington Post analysis.”
+-   **Analysis summary**: We were able to get an output close to the Post's finding. The code we wrote showed 33 cities that make arrests less often than 2014. Also confirmed that Baltimore was one of them. Part of the issue, it seems, is that the base dataset is incomplete. New York City homicides, for example, only start showing up in 2016.
+
+```{r}
+# Put code to reverse engineer sentence here
+
+# Display results of code below this codeblock
+
+#homicide_data |> group_by (city, year(date)) |> filter(str_detect (disposition, "Closed by arrest"))|> summarise (total_homicides = sum(n()))|> arrange (desc(total_homicides))
+
+homicide_arrests_2014 <- homicide_data |> filter (str_detect(year(date), "2014"))
+
+homicide_arrests_2014 <- homicide_arrests_2014 |> filter(str_detect(disposition,"Closed by arrest")) |> group_by (city) |> summarise(arrests2014 = sum(n())) |> arrange(desc(arrests2014))
+
+homicides_2014 <- homicide_data |> filter(str_detect(year(date), "2014")) |> group_by (city)|> summarise (homicides2014 = sum(n()))
+
+homicides_and_arrests_2014 <- homicides_2014 |> full_join (homicide_arrests_2014, join_by(city))
+
+homicides_and_arrests_2014 <- homicides_and_arrests_2014 |> mutate(
+  arrest_rate_2014 = arrest_rate_2014 <- (arrests2014/homicides2014) * 100
+)
+
+homicide_arrests_2017 <- homicide_data |> filter(str_detect(year(date), "2017"))
+
+homicide_arrests_2017 <- homicide_arrests_2017 |> filter(str_detect(disposition,"Closed by arrest")) |> group_by (city) |> summarise(arrests2017 = sum(n())) |> arrange(desc(arrests2017))
+
+homicides_2017 <- homicide_data |> filter(str_detect(year(date), "2017")) |> group_by (city) |> summarise (homicides2017 = sum(n()))
+
+homicides_and_arrests_2017 <- homicides_2017 |> full_join (homicide_arrests_2017, join_by(city))
+
+homicides_and_arrests_2017 <- homicides_and_arrests_2017 |> mutate(
+  arrest_rate_2017 = arrest_rate_2017 <- (arrests2017/homicides2017) *100)
+
+combined_homicide_arrest_rates <- homicides_and_arrests_2014 |> inner_join(homicides_and_arrests_2017, join_by(city))
+
+combined_homicide_arrest_rates <- combined_homicide_arrest_rates |> mutate(
+  arrests_less_often = case_when(
+    arrest_rate_2014 >= arrest_rate_2017 ~ "YES",
+    arrest_rate_2014 < arrest_rate_2017 ~ "NO"
+  )
+)
+
+combined_homicide_arrest_rates |> filter(str_detect(arrests_less_often, "YES")) |> summarise (cities_with_fewer_arrests = sum(n()))
+
+
+
+```
+
+### Sentence 3
+
+-   **Sentence text**: “And while most cities saw their arrest rates drop gradually, Baltimore’s decline was sudden — plummeting 15 percentage points in 2015, after Gray’s death, the largest single-year drop for any city already solving less than half its homicides.”
+-   **Analysis summary**: We were able to replicate the Post's analysis here. Baltimore police made arrests in 25.4% of homicides in 2015, compared with 40.8% in 2014. It was, indeed, a roughly 15% drop.
+
+```{r}
+# Put code to reverse engineer sentence here
+
+baltimore_homicides <- homicide_data |> group_by (city)|> filter(str_detect(city, "Baltimore")) 
+
+b2014_arrest <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2014")) |> 
+  filter(str_detect(disposition, "Closed by arrest"))|> 
+           summarise(arrests2014 = sum(n()))
+
+b2014_homicides <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2014")) |> 
+  summarise(homicides2014 = sum(n()))
+
+b2014_arrests_and_homicides <- b2014_homicides |> full_join (b2014_arrest, join_by(city))
+
+b2014_arrests_and_homicides <- b2014_arrests_and_homicides |> mutate(
+  arrest_rate_2014 = arrest_rate_2014 <- (arrests2014/homicides2014) *100)
+
+
+b2015_arrest <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2015"))|>
+           filter(str_detect(disposition, "Closed by arrest")) |>
+           summarise(arrests2015 = sum(n()))
+         
+         
+b2015_homicides <- baltimore_homicides |> 
+  filter(str_detect(year(date), "2015")) |>
+  summarise (homicides2015 = sum(n()))
+
+b2015_arrests_and_homicides <- b2015_homicides |> full_join(b2015_arrest, join_by(city))
+
+b2015_arrests_and_homicides <- b2015_arrests_and_homicides |> mutate(
+  arrest_rate_2015 = arrest_rate_2015 <- (arrests2015/homicides2015) *100)
+
+baltimore_combined_years <- b2014_arrests_and_homicides |> inner_join (b2015_arrests_and_homicides, join_by (city))
+
+
+baltimore_combined_years
+         
+
+
+# Display results of code below this codeblock
+
+```
+
+### Sentence 4
+
+-   **Sentence text**: Of the 1,002 homicides between 2015 and the beginning of this year, just 252 — one out of every four — resulted in an arrest.
+-   **Analysis summary**: We want to show that between 2015 and now (2017), 25% cases ended in arrest. What the code did was filter by the range of years we wanted. Then made a second data frame to show the arrests and well as which were yes and which were no. Then we got the percent of which were yes out of those 1,002 total. This did end up being 25%
+
+```{r}
+# Put code to reverse engineer sentence here
+
+# Display results of code below this codeblock
+
+baltimore_homicides <- homicide_data |> group_by (city)|> filter(str_detect(city, "Baltimore")) 
+
+homicides_2015_to_2017 <- baltimore_homicides|>
+  filter(year(date) >= 2015 & year(date) <= 2017)
+
+arrest_sum <- homicides_2015_to_2017|>
+  filter(str_detect(disposition, "Closed by arrest"))|>
+  summarise(count = n())
+
+arrest_sum|>
+  mutate(pct = (count / 1002) *100)
+
+```
+
+### Sentence 5
+
+-   **Sentence text**: "Baltimore is also one of 30 cities that have seen an increase in homicides in recent years, with the greatest raw number increase in killings of any city other than Chicago."
+-   **Analysis summary**: The code below shows that Chicago and Baltimore have the greatest number of homicides in the past three years (The Post's wording of "recent years" was vague, so we decided to count three years). Our reverse engineering showed that the data largely backs the Post's claim in this sentence. However, many cities – including Detroit – don't show data for some of the earlier years, which could skew some of the findings.
+
+```{r}
+# Put code to reverse engineer sentence here
+
+#baltimore_homicides <- homicide_data |> group_by (city)|> filter(str_detect(city, "Baltimore")) 
+
+#baltimore_homicides_by_year <- baltimore_homicides |> group_by (year(date)) |> summarise (homicides = sum(n()))|> arrange(desc(homicides))
+
+city_year <- homicide_data |> group_by(year(date), city) |> summarise(homicides = sum(n())) |> rename ('year' = 'year(date)')
+
+city_year_wide <- dcast(city_year, city ~ year)
+
+city_year_wide <- city_year_wide |> rename('h2007' = '2007', 'h2008' = '2008', 'h2009' = '2009', 'h2010' = '2010', 'h2011' = '2011', 'h2012' = '2012', 'h2013' = '2013', 'h2014' = '2014', 'h2015' = '2015', 'h2016' = '2016', 'h2017' = '2017')
+
+
+city_year_wide <- city_year_wide |> mutate (past_three = (h2015 + h2016 + h2017))
+
+
+top_thirty <- city_year_wide |> group_by (past_three) |> arrange (desc(past_three)) |> head(30)
+
+baltimore_increase <- top_thirty |> filter(str_detect(city, "Baltimore"))
+
+baltimore_increase <- baltimore_increase |> mutate (total = (h2007 + h2008 + h2009 + h2010 + h2011 + h2012 + h2013 + h2014 + h2015 + h2016 + h2017))
+
+# Display results of code below this codeblock
+
+```
+
+-30-
