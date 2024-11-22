@@ -1,0 +1,139 @@
+---
+title: "Data Analysis Project"
+output: html_notebook
+Team: Liam, Xavier, Julian and Mary
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+
+```{r}
+plot(cars)
+```
+
+```{r}
+
+#Load libraries
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(tidycensus)
+```
+
+```{r}
+
+#Load Historical data on retail power marketers - residential (from U.S. Energy Information Administration)
+retail_power2009 <- read_csv('data/retail_power2009.csv', skip=1) |> mutate(year = 2009) |>  clean_names()
+
+retail_power2010 <- read_csv('data/retail_power2010.csv', skip=1) |> mutate(year = 2010)|> clean_names()
+
+retail_power2011 <- read_csv('data/retail_power2011.csv') |> mutate(year = 2011)|> clean_names()
+
+retail_power2012 <- read_csv('data/retail_power2012.csv') |> mutate(year = 2012)|> clean_names()
+
+retail_power2013 <- read_csv('data/retail_power_marketers2013.csv', skip = 2) |> mutate(year = 2013)|> clean_names() 
+
+retail_power2014 <- read_csv('data/retail_power_marketers2014.csv', skip=2)|> mutate(year = 2014)|> clean_names()
+
+retail_power2015 <- read_csv('data/retail_power_marketers2015.csv', skip=2) |> mutate(year = 2015)|> clean_names()
+
+retail_power2016 <- read_csv('data/retail_power_marketers2016.csv') |> mutate(year=2016)|> clean_names()
+
+retail_power2017 <- read_csv('data/retail_power_marketers2017.csv') |> mutate(year=2017)|> clean_names()
+
+retail_power2018 <- read_csv('data/retail_power_marketers2018.csv') |> mutate(year=2018)|> clean_names()
+
+retail_power2019 <- read_csv('data/retail_power_marketers2019.csv') |> mutate(year=2019)|> clean_names()
+
+retail_power2020 <- read_csv('data/retail_power_marketers2020.csv') |> mutate(year=2020)|> clean_names()
+
+retail_power2021 <- read_csv('data/retail_power_marketers2021.csv', skip=2) |> mutate(year=2021)|> clean_names()
+
+retail_power2022 <- read_csv('data/retail_power_marketers2022.csv', skip=2) |> mutate(year=2022)|> clean_names()
+                                                                                            
+retail_power2023 <- read_csv('data/retail_power_marketers2023.csv') |> mutate(year=2023)|>  clean_names()
+```
+
+```{r}
+
+#Rename rows for first three years
+
+#retail_power2009 <- retail_power2009|>rename(customers_count = number_of_consumers, ownership = class_of_ownership)
+
+#retail_power2010 <- retail_power2010|> rename(customers_count = number_of_consumers, ownership = class_of_ownership)
+
+#retail_power2011 <- retail_power2011 |> rename(customers_count = number_of_consumers, ownership = class_of_ownership)
+
+#Extra cleaning: characters to numbers
+
+retail_power2009 <- retail_power2009 |> mutate(customers_count = as.numeric(customers_count), revenue_thousand_dollars = as.numeric(revenue_thousand_dollars), year = as.character(year))
+
+retail_power2010 <- retail_power2010 |> mutate(revenue_thousand_dollars = as.numeric(revenue_thousand_dollars), year = as.character(year))
+
+retail_power2011 <- retail_power2011 |> mutate(revenue_thousand_dollars = as.numeric(revenue_thousand_dollars), year = as.character(year))
+
+retail_power2012 <- retail_power2012 |> mutate(average_price_cents_k_wh = as.numeric(average_price_cents_k_wh), year = as.character(year))
+
+retail_power2013 <- retail_power2013 |> mutate(average_price_cents_k_wh = as.numeric(average_price_cents_k_wh), year = as.character(year))
+
+retail_power2014 <- retail_power2014 |> mutate(year = as.character(year))
+
+retail_power2015 <- retail_power2015 |> mutate(year = as.character(year))
+
+retail_power2016 <- retail_power2016 |> mutate(year = as.character(year))
+
+retail_power2017 <- retail_power2017 |> mutate(year = as.character(year))
+
+retail_power2018 <- retail_power2018 |> mutate(year = as.character(year))
+
+retail_power2019 <- retail_power2019 |> mutate(year = as.character(year))
+
+retail_power2020 <- retail_power2020 |> mutate(year = as.character(year))
+
+retail_power2021 <- retail_power2021 |> mutate(year = as.character(year))
+
+retail_power2022 <- retail_power2022 |> mutate(average_price_cents_k_wh = as.numeric(average_price_cents_k_wh)) |> mutate(year = as.character(year))
+
+retail_power2023 <- retail_power2023 |> mutate(average_price_cents_k_wh = as.numeric(average_price_cents_k_wh)) |> mutate(year = as.character(year))
+
+
+
+```
+
+```{r}
+#Merge all years into one dataset
+
+#retail_all_years <- bind_rows(list(retail_power2009, retail_power2010, retail_power2011, retail_power2012, retail_power2013, retail_power2014, retail_power2015, retail_power2016, retail_power2017, retail_power2018, retail_power2019, retail_power2020, retail_power2021, retail_power2022, retail_power2023))
+
+retail_recent <- bind_rows (list(retail_power2019, retail_power2020, retail_power2021, retail_power2022, retail_power2023))
+
+retail_by_year <- retail_recent |> group_by (year) |> summarise(retail_marketers = sum(n())) |> arrange(desc(retail_marketers))
+
+retail_by_state <- retail_recent |> group_by(state, year) |> summarise(retail_marketers = sum(n()))|> arrange(desc(retail_marketers))
+
+
+```
+
+**Columns:**
+
+**entity** describes the name of the company (all companies listed under "entity" are what's called retail power marketers or alternative energy suppliers; basically, unregulated power companies that are allowed to operate in some states and DC).
+
+**State** - two-letter abbreviation of the state
+
+**customers_count -** the number of customers for each company
+
+**sales_megawatthours -** the amount of electricity sold by the company in megawatt/hours
+
+**revenue_thousands_dollars** - revenue for each company. To get the real amount, just multiply the figure by 1,000. For example, the City of Solana Beach shows revenue of 2016.0 for 2019, which means its revenue was roughly \$2 million.
+
+**average_price_cents_k_wh -** The average price of electricity for that company, counted in cents/per/kilowatt hour, the standard billing method for electric utilities.
+
+**year -** year the data is from.
+
+**Analysis:** I put significant effort into cleaning the data going back to 2009, and while I worked out a lot of the kinks – it still is not coming out clean. For now, I've opted to narrow the binding to the three most recent years available.
+
+The first bit of analysis – retail_by_year – shows that the number of retail suppliers was at a high in 2019 but dropped off in 2020 and 2021 (likely tied to the pandemic). The number recovered almost exactly to pre-pandemic levels in 2022 but then there was a significant drop-off again in 2023.
+
+I then created a new df – retail_by_state - that grouped by state and year. It showed that Pennsylvania and Ohio consistently had the greatest number of these companies registered.
