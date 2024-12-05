@@ -1,0 +1,557 @@
+Entity,State,Ownership,"Customers(Count)","Sales(Megawatthours)","Revenues(Thousands Dollars)","Average Price(cents/kWh)"
+3 Phases Renewables,CA,Power Marketer,96,752,66,8.78
+CleanPowerSF,CA,,"17,293","32,635","2,367.00",7.25
+"Commerce Energy, Inc.",CA,Power Marketer,"7,174","61,851","4,820.60",7.79
+Lancaster Choice Energy,CA,,"46,618","335,488","22,264.10",6.64
+Marin Clean Energy,CA,,"177,670","1,475,646","116,053.60",7.86
+Peninsula Clean Energy Authority,CA,,"33,188","45,213","3,037.70",6.72
+Sonoma Clean Power Authority,CA,,"169,659","1,058,518","72,898.40",6.89
+"Abest Power & Gas, LLC",CT,Power Marketer,"6,287","68,000","6,071.00",8.93
+Aequitas Energy Inc,CT,Power Marketer,"3,485","41,377","3,844.00",9.29
+Agera Energy LLC,CT,Power Marketer,471,"5,628",475,8.44
+"Ambit Energy Holdings, LLC",CT,Power Marketer,"44,434","404,042","35,966.20",8.9
+"Choice Energy, LLC d/b/a 4 Choice Energy",CT,Power Marketer,"4,334","30,067","4,067.00",13.53
+Clearview Electric Inc.,CT,Power Marketer,"11,000","66,871","7,983.00",11.94
+Consolidated Edison Sol Inc,CT,Power Marketer,"35,904","407,341","33,237.50",8.16
+Constellation Energy Power Choice Inc.,CT,Power Marketer,"18,376","168,800","16,478.30",9.76
+"Constellation Energy Services, Inc.",CT,Power Marketer,675,"6,493",502.7,7.74
+"Constellation NewEnergy, Inc",CT,Power Marketer,234,"2,133",187,8.77
+Direct Energy Services,CT,Power Marketer,"44,922","360,920","35,097.20",9.72
+Discount Power Inc - (CT),CT,Power Marketer,"14,406","127,960","11,789.00",9.21
+"ENGIE Retail, LLC",CT,Power Marketer,"11,532","128,551","10,586.00",8.23
+Energy Plus Holdings LLC,CT,Power Marketer,"3,875","33,292","4,937.40",14.83
+"Energy Services Providers, Inc",CT,Power Marketer,"4,560","38,576","3,620.30",9.38
+Everyday Energy LLC,CT,Power Marketer,5,22,1.7,7.73
+"HIKO Energy, LLC",CT,Power Marketer,"2,868","19,760","1,747.70",8.84
+Liberty Power Corp.,CT,Power Marketer,"18,543","109,317","12,884.00",11.79
+Major Energy Electric Services,CT,Power Marketer,229,"1,459",179,12.27
+"Mega Energy of New England, LLC",CT,Power Marketer,140,"1,088",113.2,10.4
+"North American Power and Gas, LLC",CT,Power Marketer,"35,971","351,587","35,641.00",10.14
+"Palmco Power CT, LLC",CT,Power Marketer,"1,733","10,818","2,049.00",18.94
+Public Power LLC (CT),CT,Power Marketer,"51,186","493,795","45,885.00",9.29
+Reliant Energy Northeast LLC,CT,Power Marketer,"10,519","92,432","12,014.20",13
+"Spark Energy, LP",CT,Power Marketer,"16,847","284,793","28,786.50",10.11
+"Starion Energy, Inc.",CT,Power Marketer,"13,811","91,955","10,328.10",11.23
+"Sunwave Gas & Power Connecticut, Inc.",CT,Power Marketer,"19,947","202,050","15,398.00",7.62
+Town Square Energy,CT,Power Marketer,"22,516","237,074","17,973.90",7.58
+Verde Energy USA,CT,Power Marketer,"21,490","188,380","19,789.00",10.5
+Viridian Energy LLC,CT,Power Marketer,"9,805","86,711","9,316.00",10.74
+"XOOM Energy Connecticut, LLC",CT,Power Marketer,"6,100","49,064","4,974.30",10.14
+Agera Energy LLC,DC,Power Marketer,46,266,22,8.27
+"Ambit Energy Holdings, LLC",DC,Power Marketer,712,"6,852",701.2,10.23
+Clearview Electric Inc.,DC,Power Marketer,689,"8,658",639,7.38
+Consolidated Edison Sol Inc,DC,Power Marketer,157,"2,377",169.3,7.12
+"Constellation NewEnergy, Inc",DC,Power Marketer,"3,513","36,715","3,240.00",8.82
+Direct Energy Services,DC,Power Marketer,779,"6,929",680.2,9.82
+"ENGIE Retail, LLC",DC,Power Marketer,4,36,3,8.33
+"Eligo Energy, LLC",DC,Power Marketer,368,"2,077",205.9,9.91
+"Energy Services Providers, Inc",DC,Power Marketer,830,"6,698",586.5,8.76
+Energy.Me Midwest LLC,DC,Power Marketer,3,4,0.3,7.5
+"Ethical Electric, Inc",DC,Power Marketer,"5,092","41,375","5,368.00",12.97
+"IDT Energy, Inc.",DC,Power Marketer,"4,906","28,508","3,238.20",11.36
+Liberty Power Corp.,DC,Power Marketer,418,"3,862",443,11.47
+Major Energy Electric Services,DC,Power Marketer,"1,269","9,695","1,074.00",11.08
+"MidAmerican Energy Services, LLC",DC,Power Marketer,82,"5,073",407.3,8.03
+"NextEra Energy Services, LLC",DC,Power Marketer,162,"2,343",219.6,9.37
+Public Power LLC (CT),DC,Power Marketer,"2,055","18,214","2,250.00",12.35
+"REP Energy, LLC",DC,Power Marketer,420,"4,652",626,13.46
+Reliant Energy Northeast LLC,DC,Power Marketer,188,"1,700",185.4,10.91
+"Renaissance Power & Gas, Inc.",DC,Power Marketer,476,"3,441",371,10.78
+"Starion Energy PA, Inc.",DC,Power Marketer,"1,175","8,695","1,539.70",17.71
+"Stream Energy Columbia, LLC",DC,Power Marketer,746,"6,762",614.6,9.09
+Viridian Energy PA LLC,DC,Power Marketer,347,"3,334",334,10.02
+"WGL Energy Services, Inc.",DC,Power Marketer,"5,283","51,599","4,949.00",9.59
+"XOOM Energy Washington DC, LLC",DC,Power Marketer,"1,055","9,329",876.2,9.39
+Agera Energy LLC,DE,Power Marketer,32,691,49,7.09
+"Ambit Energy Holdings, LLC",DE,Power Marketer,876,"10,325","1,191.20",11.54
+Clearview Electric Inc.,DE,Power Marketer,"2,026","15,275","1,684.00",11.02
+"Commerce Energy, Inc.",DE,Power Marketer,"8,400","99,873","9,330.00",9.34
+"Constellation NewEnergy, Inc",DE,Power Marketer,81,879,72,8.19
+Direct Energy Services,DE,Power Marketer,"6,903","70,829","6,472.20",9.14
+"ENGIE Retail, LLC",DE,Power Marketer,29,269,21,7.81
+Energy.Me Midwest LLC,DE,Power Marketer,4,56,5,8.93
+"Ethical Electric, Inc",DE,Power Marketer,514,"5,418",793.8,14.65
+"First Point Power, LLC",DE,Power Marketer,90,"1,193",153.1,12.83
+Liberty Power Corp.,DE,Power Marketer,8,50,5,10
+"MidAmerican Energy Services, LLC",DE,Power Marketer,7,102,9.1,8.92
+"NextEra Energy Services, LLC",DE,Power Marketer,791,"11,538","1,250.30",10.84
+Reliant Energy Northeast LLC,DE,Power Marketer,138,"1,619",202.8,12.53
+"ResCom Energy, LLC",DE,Power Marketer,165,"1,508",240.3,15.94
+"SmartEnergy Holdings, LLC",DE,Power Marketer,907,"8,300","1,019.00",12.28
+"Starion Energy PA, Inc.",DE,Power Marketer,268,"2,201",313.7,14.25
+Viridian Energy PA LLC,DE,Power Marketer,700,"7,912",883,11.16
+"WGL Energy Services, Inc.",DE,Power Marketer,"4,626","47,537","4,471.00",9.41
+"XOOM Energy Delaware, LLC",DE,Power Marketer,911,"10,467","1,103.00",10.54
+AEP Energy,IL,Power Marketer,"7,152","74,843","4,842.00",6.47
+Agera Energy LLC,IL,Power Marketer,25,"2,442",158.1,6.47
+"Ambit Energy Holdings, LLC",IL,Power Marketer,"53,964","502,607","38,118.60",7.58
+Aspirity Energy LLC,IL,Power Marketer,"5,834","12,073",941.9,7.8
+Champion Energy Services,IL,Power Marketer,"3,153","35,422","2,678.00",7.56
+Clearview Electric Inc.,IL,Power Marketer,"14,789","107,743","9,548.00",8.86
+"Commerce Energy, Inc.",IL,Power Marketer,"34,103","270,040","22,827.20",8.45
+Consolidated Edison Sol Inc,IL,Power Marketer,"1,104","12,906",833.9,6.46
+"Constellation Energy Services, Inc.",IL,Power Marketer,"260,982","2,439,081","168,670.90",6.92
+"Constellation NewEnergy, Inc",IL,Power Marketer,"75,378","748,334","52,577.00",7.03
+Direct Energy Services,IL,Power Marketer,"96,475","853,872","74,375.30",8.71
+"Dynegy Energy Services, LLC",IL,Power Marketer,"158,086","1,522,632","99,943.00",6.56
+"ENGIE Retail, LLC",IL,Power Marketer,110,939,65,6.92
+"Eligo Energy, LLC",IL,Power Marketer,"30,663","286,516","21,197.20",7.4
+Energy Plus Holdings LLC,IL,Power Marketer,"29,742","260,972","34,387.40",13.18
+"Energy Services Providers, Inc",IL,Power Marketer,"22,404","210,909","17,524.50",8.31
+Energy.Me Midwest LLC,IL,Power Marketer,"3,766","46,812","3,262.00",6.97
+Entrust Energy,IL,Power Marketer,"6,492","45,988","3,693.00",8.03
+"Ethical Electric, Inc",IL,Power Marketer,"12,882","79,430","7,914.00",9.96
+Everyday Energy LLC,IL,Power Marketer,"1,703","15,743",972,6.17
+First Energy Solutions Corp.,IL,Power Marketer,"85,857","844,411","52,882.20",6.26
+Green Mountain Energy Company,IL,Power Marketer,"19,522","149,981","15,805.70",10.54
+"HIKO Energy, LLC",IL,Power Marketer,"1,262","9,153",903.2,9.87
+Homefield Energy,IL,Power Marketer,"687,202","6,525,985","387,917.70",5.94
+"IDT Energy, Inc.",IL,Power Marketer,"49,110","285,646","26,102.50",9.14
+"Interstate Gas Supply, Inc.",IL,Power Marketer,"49,349","420,930","34,769.00",8.26
+Iron Energy LLC dba Kona Energy,IL,Power Marketer,"1,456","6,596",465.5,7.06
+Liberty Power Corp.,IL,Power Marketer,"64,292","408,790","40,552.00",9.92
+"MC Squared Energy Services, LLC",IL,Power Marketer,"30,830","453,923","30,693.00",6.76
+Major Energy Electric Services,IL,Power Marketer,"2,451","15,836","1,473.00",9.3
+"Mega Energy of Illinois, LLC",IL,Power Marketer,"2,822","18,543","1,529.80",8.25
+"MidAmerican Energy Services, LLC",IL,Power Marketer,"33,777","310,982","21,940.10",7.06
+"Nordic Energy Services, LLC",IL,Power Marketer,"17,134","196,691","13,372.00",6.8
+"North American Power and Gas, LLC",IL,Power Marketer,"7,495","64,029","7,733.00",12.08
+"Oasis Power, LLC",IL,Power Marketer,"2,168","15,380","1,269.40",8.25
+"Palmco Power IL, LLC",IL,Power Marketer,"8,903","63,827","8,889.00",13.93
+"Plymouth Rock Energy, LLC",IL,Power Marketer,"1,952","9,215",749.1,8.13
+Public Power LLC (CT),IL,Power Marketer,"5,988","48,305","4,733.00",9.8
+"Realgy, LLC",IL,Power Marketer,"18,607","183,418","10,882.00",5.93
+Reliant Energy Northeast LLC,IL,Power Marketer,"45,351","331,518","29,192.40",8.81
+"ResCom Energy, LLC",IL,Power Marketer,12,66,10.2,15.45
+"Residents Energy, LLC",IL,Power Marketer,160,211,13.3,6.3
+Santanna Energy Services,IL,Power Marketer,"20,178","164,226","11,396.00",6.94
+"SmartEnergy Holdings, LLC",IL,Power Marketer,"5,917","28,112","2,321.00",8.26
+Source Power & Gas LLC,IL,Power Marketer,33,318,21.6,6.79
+"Spark Energy, LP",IL,Power Marketer,"37,405","261,635","28,175.00",10.77
+Sperian Energy Corp,IL,Power Marketer,"14,002","122,256","10,543.20",8.62
+"Star Energy Partners, LLC",IL,Power Marketer,"6,883","49,119","4,104.00",8.36
+"Starion Energy PA, Inc.",IL,Power Marketer,"21,633","166,106","15,386.70",9.26
+Verde Energy USA,IL,Power Marketer,"21,545","176,469","15,036.00",8.52
+Viridian Energy PA LLC,IL,Power Marketer,"15,874","136,939","11,381.00",8.31
+"XOOM Energy Illinois, LLC",IL,Power Marketer,"23,041","178,138","14,561.00",8.17
+"Abest Power & Gas, LLC",MA,Power Marketer,832,"8,450",851,10.07
+Agera Energy LLC,MA,Power Marketer,646,"9,594",783,8.16
+"Ambit Energy Holdings, LLC",MA,Power Marketer,"10,639","83,048","7,158.60",8.62
+Clearview Electric Inc.,MA,Power Marketer,"19,990","105,871","13,214.00",12.48
+Consolidated Edison Sol Inc,MA,Power Marketer,"343,426","2,681,925","263,944.60",9.84
+Constellation Energy Power Choice Inc.,MA,Power Marketer,"47,962","380,220","39,163.60",10.3
+"Constellation Energy Services, Inc.",MA,Power Marketer,225,"2,801",269.3,9.61
+"Constellation NewEnergy, Inc",MA,Power Marketer,"4,564","45,759","4,140.00",9.05
+Direct Energy Services,MA,Power Marketer,"40,316","319,200","33,464.80",10.48
+Discount Power Inc - (CT),MA,Power Marketer,"5,756","36,084","4,118.40",11.41
+"ENGIE Retail, LLC",MA,Power Marketer,"12,018","132,178","13,553.00",10.25
+"Eligo Energy, LLC",MA,Power Marketer,"3,702","15,818","1,401.20",8.86
+Energy Plus Holdings LLC,MA,Power Marketer,"5,978","41,840","6,943.30",16.59
+"Energy Services Providers, Inc",MA,Power Marketer,"15,438","118,410","12,524.70",10.58
+"Ethical Electric, Inc",MA,Power Marketer,"1,130","5,202",709.1,13.63
+"First Point Power, LLC",MA,Power Marketer,"2,804","31,728","3,347.50",10.55
+Green Mountain Energy Company,MA,Power Marketer,"3,982","24,858","3,453.00",13.89
+Hampshire COG d/b/a Hampshire Power,MA,Power Marketer,"39,559","228,449","21,695.10",9.5
+"Inspire Energy Holdings, LLC",MA,Power Marketer,"4,583","28,675","3,267.20",11.39
+Just Energy,MA,Power Marketer,"30,335","219,430","25,162.60",11.47
+Liberty Power Corp.,MA,Power Marketer,"33,514","173,360","24,467.00",14.11
+Major Energy Electric Services,MA,Power Marketer,"15,710","90,233","12,324.00",13.66
+"Mega Energy of New England, LLC",MA,Power Marketer,"2,967","20,317","2,599.90",12.8
+"Nordic Energy Services, LLC",MA,Power Marketer,40,136,12.8,9.41
+"Oasis Power, LLC",MA,Power Marketer,"4,650","33,743","4,349.80",12.89
+"Palmco Power MA, LLC",MA,Power Marketer,"11,628","69,702","12,538.00",17.99
+"Provider Power MASS, LLC",MA,Power Marketer,"2,825","24,738","2,864.70",11.58
+Public Power LLC (CT),MA,Power Marketer,"1,061","5,131",589,11.48
+"REP Energy, LLC",MA,Power Marketer,"1,908","15,250","1,806.00",11.84
+Reliant Energy Northeast LLC,MA,Power Marketer,"55,501","420,072","60,685.90",14.45
+"SFE Energy Massachusetts, Inc.",MA,Power Marketer,"12,187","75,405","8,313.00",11.02
+"SmartEnergy Holdings, LLC",MA,Power Marketer,"4,380","26,780","2,936.00",10.96
+"Spark Energy, LP",MA,Power Marketer,"12,666","181,646","19,959.20",10.99
+"Starion Energy, Inc.",MA,Power Marketer,"38,853","276,951","34,068.80",12.3
+"Sunwave Gas & Power Connecticut, Inc.",MA,Power Marketer,949,"7,541",766,10.16
+Town Square Energy,MA,Power Marketer,845,"7,177",726.4,10.12
+Verde Energy USA,MA,Power Marketer,"32,221","238,354","28,774.00",12.07
+Viridian Energy LLC,MA,Power Marketer,"58,844","456,248","54,431.00",11.93
+"XOOM Energy Massachusetts, LLC",MA,Power Marketer,"7,395","52,250","6,069.70",11.62
+AP Holdings LLC,MD,Power Marketer,256,"3,444",146,4.24
+Agera Energy LLC,MD,Power Marketer,485,"5,849",588,10.05
+"Ambit Energy Holdings, LLC",MD,Power Marketer,"17,123","221,389","23,375.40",10.56
+Clearview Electric Inc.,MD,Power Marketer,"5,638","44,526","4,107.70",9.23
+"Commerce Energy, Inc.",MD,Power Marketer,"22,738","217,162","22,329.80",10.28
+Consolidated Edison Sol Inc,MD,Power Marketer,"16,060","261,946","22,247.60",8.49
+Constellation Energy Power Choice Inc.,MD,Power Marketer,"98,652","1,318,936","121,222.70",9.19
+"Constellation NewEnergy, Inc",MD,Power Marketer,2,15,2,13.33
+Direct Energy Services,MD,Power Marketer,"33,997","379,526","41,921.80",11.05
+"Discount Energy Group, LLC",MD,Power Marketer,542,"6,804",717.4,10.54
+Discount Power Inc - (CT),MD,Power Marketer,24,4,0.4,10
+"ENGIE Retail, LLC",MD,Power Marketer,65,771,61,7.91
+"Eligo Energy, LLC",MD,Power Marketer,49,523,47.8,9.14
+Energy Plus Holdings LLC,MD,Power Marketer,"7,492","94,752","13,815.30",14.58
+"Energy Services Providers, Inc",MD,Power Marketer,"11,554","138,585","13,193.10",9.52
+Energy.Me Midwest LLC,MD,Power Marketer,18,752,67,8.91
+Entrust Energy,MD,Power Marketer,564,"5,623",520,9.25
+"Ethical Electric, Inc",MD,Power Marketer,"12,672","123,822","15,359.00",12.4
+First Energy Solutions Corp.,MD,Power Marketer,"2,193","35,985","2,492.30",6.93
+"Great American Power, LLC",MD,Power Marketer,"2,889","32,349","3,366.80",10.41
+Green Mountain Energy Company,MD,Power Marketer,"2,307","28,237","3,338.60",11.82
+"HIKO Energy, LLC",MD,Power Marketer,"3,414","27,206","3,750.10",13.78
+"IDT Energy, Inc.",MD,Power Marketer,"16,626","146,029","15,881.00",10.88
+"Inspire Energy Holdings, LLC",MD,Power Marketer,"2,737","27,946","3,303.90",11.82
+"Interstate Gas Supply, Inc.",MD,Power Marketer,"3,335","31,893","3,131.00",9.82
+Liberty Power Corp.,MD,Power Marketer,"3,791","36,847","4,407.00",11.96
+MPower Energy NJ LLC,MD,Power Marketer,"1,489","1,964",197,10.03
+Major Energy Electric Services,MD,Power Marketer,"6,574","52,489","5,981.00",11.39
+"MidAmerican Energy Services, LLC",MD,Power Marketer,392,"7,277",592,8.14
+"NextEra Energy Services, LLC",MD,Power Marketer,112,"1,760",145.6,8.27
+"Nordic Energy Services, LLC",MD,Power Marketer,20,225,18.1,8.04
+"North American Power and Gas, LLC",MD,Power Marketer,"3,772","47,407","6,021.10",12.7
+"Oasis Power, LLC",MD,Power Marketer,"6,037","66,626","8,750.50",13.13
+"Palmco Power MD, LLC",MD,Power Marketer,"4,933","39,088","7,703.00",19.71
+Park Power LLC,MD,Power Marketer,"1,278","16,219","1,830.00",11.28
+Planet Energy,MD,Power Marketer,38,54,5.8,10.74
+"Plymouth Rock Energy, LLC",MD,Power Marketer,571,"2,961",313.6,10.59
+"Public Power & Utility of Maryland, LLC",MD,Power Marketer,"6,011","64,352","8,040.00",12.49
+"REP Energy, LLC",MD,Power Marketer,"1,810","28,066","2,508.00",8.94
+Reliant Energy Northeast LLC,MD,Power Marketer,"24,179","345,372","37,815.40",10.95
+"SFE Energy Maryland, Inc",MD,Power Marketer,"10,662","99,934","9,040.00",9.05
+"Shipley Choice, LLC",MD,Power Marketer,862,"8,634",759.9,8.8
+Source Power & Gas LLC,MD,Power Marketer,37,530,48.5,9.15
+"Spark Energy, LP",MD,Power Marketer,"2,975","51,902","4,737.00",9.13
+Sperian Energy Corp,MD,Power Marketer,"1,061","13,077","1,334.70",10.21
+Spring Energy RRH LLC dba Spring Power & Gas,MD,Power Marketer,434,"2,393",345,14.42
+"Starion Energy PA, Inc.",MD,Power Marketer,"4,680","51,322","7,305.40",14.23
+"Stream Energy Maryland, LLC",MD,Power Marketer,"9,713","125,960","13,671.50",10.85
+"Talen Energy Marketing, LLC",MD,Power Marketer,2,7,0.6,8.57
+Viridian Energy PA LLC,MD,Power Marketer,"6,663","79,849","9,005.00",11.28
+"WGL Energy Services, Inc.",MD,Power Marketer,"61,446","714,046","65,899.00",9.23
+"XOOM Energy Maryland, LLC",MD,Power Marketer,"17,862","197,191","20,167.50",10.23
+Agera Energy LLC,ME,Power Marketer,324,"2,281",183,8.02
+"Ambit Energy Holdings, LLC",ME,Power Marketer,"5,345","42,721","3,033.90",7.1
+"C. N. Brown Electricity, LLC",ME,Power Marketer,"1,061","7,116",680.4,9.56
+Clearview Electric Inc.,ME,Power Marketer,"5,967","25,642","2,870.00",11.19
+"Constellation Energy Services, Inc.",ME,Power Marketer,161,"3,821",283.4,7.42
+"ENGIE Retail, LLC",ME,Power Marketer,489,"4,933",419,8.49
+"Electricity Maine, LLC",ME,Power Marketer,"87,764","599,382","62,535.50",10.43
+FairPoint Energy LLC,ME,Power Marketer,"10,075","58,856","5,405.00",9.18
+"First Point Power, LLC",ME,Power Marketer,37,337,26.4,7.83
+"Mega Energy of Maine, LLC",ME,Power Marketer,17,176,16.9,9.6
+"North American Power and Gas, LLC",ME,Power Marketer,"4,663","36,048","3,725.50",10.33
+"XOOM Energy Maine, LLC",ME,Power Marketer,"1,641","11,603","1,021.00",8.8
+"Eligo Energy, LLC",MI,Power Marketer,7,"3,100",125.3,4.04
+Agera Energy LLC,NH,Power Marketer,"1,536","12,745","1,162.00",9.12
+"Ambit Energy Holdings, LLC",NH,Power Marketer,"3,281","25,294","2,343.20",9.26
+Clearview Electric Inc.,NH,Power Marketer,"11,004","11,469","1,589.00",13.85
+"Constellation Energy Services, Inc.",NH,Power Marketer,650,"5,701",541.8,9.5
+Direct Energy Services,NH,Power Marketer,"5,118","27,493","2,026.00",7.37
+"ENGIE Retail, LLC",NH,Power Marketer,18,104,8,7.69
+"Electricity NH, LLC d/b/a ENH Power, LLC",NH,Power Marketer,"40,834","295,104","30,327.60",10.28
+FairPoint Energy LLC,NH,Power Marketer,"8,428","52,897","5,557.00",10.51
+"First Point Power, LLC",NH,Power Marketer,"3,949","36,431","3,216.00",8.83
+"Mega Energy of New Hampshire, LLC",NH,Power Marketer,"1,019","7,548",875.9,11.6
+"North American Power and Gas, LLC",NH,Power Marketer,"36,664","295,595","33,686.50",11.4
+PNE Energy Supply LLC,NH,Power Marketer,"1,099","4,812",415.1,8.63
+"REP Energy, LLC",NH,Power Marketer,81,362,34,9.39
+Town Square Energy,NH,Power Marketer,"2,949","18,980","1,785.20",9.41
+"XOOM Energy New Hampshire, LLC",NH,Power Marketer,618,"4,685",452.7,9.66
+AEP Energy,NJ,Power Marketer,"1,341","16,336","1,581.00",9.68
+AP Holdings LLC,NJ,Power Marketer,189,"1,883",91,4.83
+Agera Energy LLC,NJ,Power Marketer,277,"2,487",254,10.21
+"Alpha Gas and Electric, LLC",NJ,Power Marketer,"3,239","24,101","3,496.00",14.51
+"Ambit Energy Holdings, LLC",NJ,Power Marketer,"21,334","223,245","25,776.60",11.55
+American Power & Gas,NJ,Power Marketer,"2,405","25,395","3,835.00",15.1
+Astral Energy LLC,NJ,Power Marketer,"2,934","29,269","3,566.20",12.18
+Champion Energy Services,NJ,Power Marketer,308,"3,057",367.2,12.01
+"Choice Energy, LLC d/b/a 4 Choice Energy",NJ,Power Marketer,"4,719","33,292","3,987.00",11.98
+Clearview Electric Inc.,NJ,Power Marketer,"6,474","44,131","5,352.00",12.13
+"Commerce Energy, Inc.",NJ,Power Marketer,"6,545","54,049","6,075.20",11.24
+Consolidated Edison Sol Inc,NJ,Power Marketer,"1,670","55,555","4,125.10",7.43
+Constellation Energy Power Choice Inc.,NJ,Power Marketer,"1,499","12,670","1,742.10",13.75
+"Constellation Energy Services, Inc.",NJ,Power Marketer,"30,023","238,344","24,220.30",10.16
+"Constellation NewEnergy, Inc",NJ,Power Marketer,"8,923","91,953","8,757.00",9.52
+Direct Energy Services,NJ,Power Marketer,"26,273","245,412","34,024.80",13.86
+"Discount Energy Group, LLC",NJ,Power Marketer,635,"5,188",618.2,11.92
+"ENGIE Retail, LLC",NJ,Power Marketer,21,231,22,9.52
+"East Coast Power & Gas, LLC",NJ,Power Marketer,2,3,0.3,10
+Energy Plus Holdings LLC,NJ,Power Marketer,"17,843","163,500","24,840.80",15.19
+"Energy Services Providers, Inc",NJ,Power Marketer,"5,427","49,488","5,573.60",11.26
+Energy.Me Midwest LLC,NJ,Power Marketer,45,"1,097",107,9.75
+Entrust Energy,NJ,Power Marketer,425,"2,882",330,11.45
+"Ethical Electric, Inc",NJ,Power Marketer,"2,880","22,667","3,274.40",14.45
+Everyday Energy LLC,NJ,Power Marketer,"1,454","12,924","1,358.00",10.51
+First Energy Solutions Corp.,NJ,Power Marketer,377,"4,325",410.9,9.5
+"First Point Power, LLC",NJ,Power Marketer,11,80,6.3,7.88
+"Frontier Utilities, Inc.",NJ,Power Marketer,774,"4,101",547.2,13.34
+Green Mountain Energy Company,NJ,Power Marketer,882,"7,200",893.5,12.41
+Greenlight Energy Inc.,NJ,Power Marketer,620,"4,653",473,10.17
+"HIKO Energy, LLC",NJ,Power Marketer,"4,052","26,929","3,095.70",11.5
+"Harborside Energy, LLC",NJ,Power Marketer,"1,497","8,879","1,278.00",14.39
+"IDT Energy, Inc.",NJ,Power Marketer,"28,744","194,434","23,486.30",12.08
+"Inspire Energy Holdings, LLC",NJ,Power Marketer,"7,043","53,811","6,080.50",11.3
+Liberty Power Corp.,NJ,Power Marketer,"3,278","19,407","2,559.00",13.19
+MPower Energy NJ LLC,NJ,Power Marketer,"3,343","10,056","1,230.00",12.23
+Marathon Power LLC,NJ,Power Marketer,172,"2,996",292.9,9.78
+"NextEra Energy Services, LLC",NJ,Power Marketer,957,"16,244","1,812.70",11.16
+"Nordic Energy Services, LLC",NJ,Power Marketer,154,"1,625",151.7,9.34
+"North American Power and Gas, LLC",NJ,Power Marketer,"19,727","196,223","27,782.10",14.16
+"Oasis Power, LLC",NJ,Power Marketer,669,"4,806",767.9,15.98
+"Palmco Power NJ, LLC",NJ,Power Marketer,"6,688","37,787","7,619.00",20.16
+Park Power LLC,NJ,Power Marketer,25,180,20,11.11
+"Plymouth Rock Energy, LLC",NJ,Power Marketer,"3,911","16,450","1,977.70",12.02
+Public Power & Utility - New Jersey,NJ,Power Marketer,75,383,35,9.14
+Reliant Energy Northeast LLC,NJ,Power Marketer,"12,464","139,882","13,686.60",9.78
+"ResCom Energy, LLC",NJ,Power Marketer,92,709,120.4,16.98
+"Residents Energy, LLC",NJ,Power Marketer,"1,715","12,508","1,514.70",12.11
+Respond Power LLC,NJ,Power Marketer,"10,485","90,379","10,092.00",11.17
+"SFE Energy New Jersey, Inc.",NJ,Power Marketer,"7,121","50,983","4,982.00",9.77
+"SmartEnergy Holdings, LLC",NJ,Power Marketer,697,"4,144",632,15.25
+Source Power & Gas LLC,NJ,Power Marketer,29,357,39.8,11.15
+South Jersey Energy Company,NJ,Power Marketer,"18,442","128,816","11,106.90",8.62
+"Spark Energy, LP",NJ,Power Marketer,"1,671","13,836","2,103.20",15.2
+Sperian Energy Corp,NJ,Power Marketer,"2,467","23,492","3,253.40",13.85
+Spring Energy RRH LLC dba Spring Power & Gas,NJ,Power Marketer,961,"4,023",693,17.23
+"Star Energy Partners, LLC",NJ,Power Marketer,384,"3,883",477,12.28
+"Starion Energy PA, Inc.",NJ,Power Marketer,"5,835","48,134","6,856.40",14.24
+"Stream Energy New Jersey, LLC",NJ,Power Marketer,"16,842","166,524","19,212.90",11.54
+"Supreme Energy, Inc.",NJ,Power Marketer,33,564,61,10.82
+"Talen Energy Marketing, LLC",NJ,Power Marketer,"8,366","43,696","4,853.00",11.11
+"Texpo Power, L.P.",NJ,Power Marketer,651,"8,484",834.2,9.83
+"TriEagle Energy, L.P.",NJ,Power Marketer,"63,713","602,549","58,181.90",9.66
+Verde Energy USA,NJ,Power Marketer,"19,323","166,183","25,814.00",15.53
+Viridian Energy PA LLC,NJ,Power Marketer,"36,654","354,107","46,869.00",13.24
+"XOOM Energy New Jersey, LLC",NJ,Power Marketer,"7,416","63,778","8,086.00",12.68
+AP Holdings LLC,NY,Power Marketer,"1,088","8,226",817,9.93
+"Abest Power & Gas, LLC",NY,Power Marketer,51,110,12.9,11.73
+"Accent Energy Holdings, LLC",NY,Power Marketer,"10,399","61,179","6,537.00",10.69
+Agera Energy LLC,NY,Power Marketer,"1,125","35,887","2,837.00",7.91
+"Agway Energy Services, LLC",NY,Power Marketer,"37,286","281,490","22,492.10",7.99
+"Alpha Gas and Electric, LLC",NY,Power Marketer,"7,739","44,777","6,167.00",13.77
+"Ambit Energy Holdings, LLC",NY,Power Marketer,"150,267","1,324,163","89,412.90",6.75
+American Power & Gas,NY,Power Marketer,"12,920","86,780","11,540.00",13.3
+Astral Energy LLC,NY,Power Marketer,994,"34,608","4,869.60",14.07
+Atlantic Energy LLC,NY,Power Marketer,166,"8,390",918,10.94
+"Bounce Energy, Inc.",NY,Power Marketer,26,"1,112",89,8
+Clearview Electric Inc.,NY,Power Marketer,"2,091","8,949",975,10.9
+"Columbia Utilities Power, LLC",NY,Power Marketer,"4,020","20,361","4,253.50",20.89
+Consolidated Edison Sol Inc,NY,Power Marketer,"76,947","642,194","50,984.60",7.94
+Constellation Energy Power Choice Inc.,NY,Power Marketer,"26,784","265,791","21,035.70",7.91
+"Constellation Energy Services NY, Inc.",NY,Power Marketer,"1,865","60,152","3,723.60",6.19
+"Constellation NewEnergy, Inc",NY,Power Marketer,"1,442",793,69,8.7
+Direct Energy Services,NY,Power Marketer,"137,925","1,146,053","113,588.90",9.91
+"ENGIE Retail, LLC",NY,Power Marketer,738,"8,245",577,7
+"East Coast Power & Gas, LLC",NY,Power Marketer,"1,521","100,520","7,375.80",7.34
+"Eligo Energy, LLC",NY,Power Marketer,"9,060","71,978","5,139.20",7.14
+"Energy Coop of New York, Inc",NY,Power Marketer,"3,452","118,577","5,873.00",4.95
+Energy Plus Holdings LLC,NY,Power Marketer,"21,999","146,358","20,036.20",13.69
+"Energy Services Providers, Inc",NY,Power Marketer,"29,189","246,995","20,491.00",8.3
+"EnergyMark, LLC",NY,Power Marketer,"1,808","13,263",720.4,5.43
+Entrust Energy,NY,Power Marketer,"2,223","7,912",803,10.15
+"Ethical Electric, Inc",NY,Power Marketer,"10,401","53,011","6,381.10",12.04
+Everyday Energy LLC,NY,Power Marketer,23,51,6.3,12.35
+"Family Energy, Inc. New York",NY,Power Marketer,"56,170","350,170","32,358.00",9.24
+"Frontier Utilities, Inc.",NY,Power Marketer,"1,614","9,994","1,150.20",11.51
+Green Mountain Energy Company,NY,Power Marketer,"71,261","296,939","42,058.50",14.16
+Greenlight Energy Inc.,NY,Power Marketer,"5,238","35,683","3,423.00",9.59
+"HIKO Energy, LLC",NY,Power Marketer,"12,789","80,403","8,228.70",10.23
+Hudson Energy Services,NY,Power Marketer,"8,874","74,298","7,062.00",9.5
+"IDT Energy, Inc.",NY,Power Marketer,"83,580","400,494","50,219.90",12.54
+"Inspire Energy Holdings, LLC",NY,Power Marketer,394,"2,094",214.9,10.26
+Iron Energy LLC dba Kona Energy,NY,Power Marketer,328,"2,193",223.8,10.21
+Just Energy New York Corp.,NY,Power Marketer,"84,650","582,377","53,781.50",9.23
+Kiwi Energy NY LLC,NY,Power Marketer,"44,405","298,684","30,492.00",10.21
+Liberty Power Corp.,NY,Power Marketer,"13,023","70,153","10,167.00",14.49
+MPower Energy LLC,NY,Power Marketer,"63,200","178,078","26,218.00",14.72
+Major Energy Electric Services,NY,Power Marketer,"34,571","275,769","27,287.00",9.89
+Marathon Power LLC,NY,Power Marketer,793,"22,195","1,963.20",8.85
+NOCO Electric,NY,Power Marketer,"11,899","116,553","5,644.20",4.84
+New Wave Energy Corporation,NY,Power Marketer,"1,414","23,583","1,313.00",5.57
+"Nordic Energy Services, LLC",NY,Power Marketer,7,187,15.8,8.45
+"North American Power and Gas, LLC",NY,Power Marketer,"11,817","102,376","12,281.20",12
+"Oasis Power, LLC",NY,Power Marketer,"4,071","18,408","3,340.00",18.14
+Planet Energy,NY,Power Marketer,64,394,39,9.9
+"Plymouth Rock Energy, LLC",NY,Power Marketer,"10,535","38,318","3,742.60",9.77
+Public Power LLC (CT),NY,Power Marketer,"8,660","56,363","5,415.00",9.61
+Reliant Energy Northeast LLC,NY,Power Marketer,"6,333","46,440","3,527.00",7.59
+"Residents Energy, LLC",NY,Power Marketer,"13,840","65,365","8,662.60",13.25
+"Robison Energy, LLC",NY,Power Marketer,"2,433","61,992","5,714.20",9.22
+"SBR Energy, LLC",NY,Power Marketer,934,"7,094",716,10.09
+"Spark Energy, LP",NY,Power Marketer,"17,648","71,973","9,353.00",13
+Sperian Energy Corp,NY,Power Marketer,698,"4,460",504,11.3
+"Starion Energy NY, Inc.",NY,Power Marketer,"5,830","24,129","3,719.70",15.42
+"Stream Energy New York, LLC",NY,Power Marketer,"5,337","38,923","2,465.10",6.33
+"Supreme Energy, Inc.",NY,Power Marketer,109,"5,710",625,10.95
+U.S. Energy Partners LLC,NY,Power Marketer,"1,580","14,230",590,4.15
+Verde Energy USA,NY,Power Marketer,"9,630","62,313","6,623.00",10.63
+Viridian Energy NY LLC,NY,Power Marketer,"35,540","302,198","28,905.00",9.56
+"XOOM Energy New York, LLC",NY,Power Marketer,"33,142","187,598","19,243.40",10.26
+AEP Energy,OH,Power Marketer,"210,154","2,624,262","163,805.50",6.24
+AP Holdings LLC,OH,Power Marketer,"6,267","101,710","4,070.00",4
+Agera Energy LLC,OH,Power Marketer,"1,939","20,310","1,637.00",8.06
+"Ambit Energy Holdings, LLC",OH,Power Marketer,"2,100","24,192","1,459.60",6.03
+American Power & Gas,OH,Power Marketer,"1,896","32,072","2,952.00",9.2
+Aspirity Energy LLC,OH,Power Marketer,"4,315","11,997",849.8,7.08
+Astral Energy LLC,OH,Power Marketer,47,523,33,6.31
+Capital Energy LLC,OH,Power Marketer,"10,741","127,964","7,688.40",6.01
+Champion Energy Services,OH,Power Marketer,388,"3,523",192.9,5.48
+"Choice Energy, LLC d/b/a 4 Choice Energy",OH,Power Marketer,"1,912","20,960","1,867.00",8.91
+Cincinnati Bell Energy LLC,OH,Power Marketer,"12,260","138,392","9,323.00",6.74
+Clearview Electric Inc.,OH,Power Marketer,891,"7,430",519,6.99
+"Commerce Energy, Inc.",OH,Power Marketer,"43,143","379,523","30,195.80",7.96
+"Constellation Energy Services, Inc.",OH,Power Marketer,"50,854","448,661","29,650.60",6.61
+"Constellation NewEnergy, Inc",OH,Power Marketer,"22,120","230,980","16,170.00",7
+DPL Energy Resources,OH,Power Marketer,"102,787","1,260,869","86,019.00",6.82
+Direct Energy Services,OH,Power Marketer,"46,274","477,367","40,280.00",8.44
+"Discount Energy Group, LLC",OH,Power Marketer,"3,505","36,414","3,009.70",8.27
+Discount Power Inc - (CT),OH,Power Marketer,"2,327","19,023","1,439.40",7.57
+"Dynegy Energy Services, LLC",OH,Power Marketer,"128,611","1,682,757","98,401.00",5.85
+"ENGIE Retail, LLC",OH,Power Marketer,"1,729","21,509","1,329.00",6.18
+"Eligo Energy, LLC",OH,Power Marketer,"1,326","16,890","1,393.80",8.25
+Energy Plus Holdings LLC,OH,Power Marketer,704,"8,337","1,088.50",13.06
+"Energy Services Providers, Inc",OH,Power Marketer,"1,488","12,109",919.5,7.59
+Energy.Me Midwest LLC,OH,Power Marketer,213,"4,307",294,6.83
+Entrust Energy,OH,Power Marketer,"3,439","30,437","2,385.00",7.84
+"Ethical Electric, Inc",OH,Power Marketer,"1,007","4,064",421,10.36
+Everyday Energy LLC,OH,Power Marketer,"2,443","20,924","1,893.70",9.05
+First Energy Solutions Corp.,OH,Power Marketer,"1,139,517","10,972,696","659,338.00",6.01
+"HIKO Energy, LLC",OH,Power Marketer,"1,221","9,734",854.1,8.77
+"IDT Energy, Inc.",OH,Power Marketer,2,1,0.1,10
+"Inspire Energy Holdings, LLC",OH,Power Marketer,68,216,18.6,8.61
+"Interstate Gas Supply, Inc.",OH,Power Marketer,"189,896","2,039,654","135,612.00",6.65
+Iron Energy LLC dba Kona Energy,OH,Power Marketer,64,397,31.5,7.93
+Liberty Power Corp.,OH,Power Marketer,870,"6,422",586,9.12
+"LifeEnergy, LLC",OH,Power Marketer,32,65,4.3,6.62
+Lykins Energy Solutions,OH,Power Marketer,"1,927","27,076","1,637.40",6.05
+MP2 Energy LLC,OH,Power Marketer,9,58,2.6,4.48
+"MidAmerican Energy Services, LLC",OH,Power Marketer,45,"1,230",64.5,5.24
+"Nordic Energy Services, LLC",OH,Power Marketer,"2,310","33,433","2,340.70",7
+"North American Power and Gas, LLC",OH,Power Marketer,"11,944","124,702","11,266.30",9.03
+"Palmco Power OH, LLC",OH,Power Marketer,591,"3,482",472,13.56
+"Plymouth Rock Energy, LLC",OH,Power Marketer,"1,558","7,810",662.6,8.48
+Public Power LLC (CT),OH,Power Marketer,"1,441","14,481","1,323.00",9.14
+Reliant Energy Northeast LLC,OH,Power Marketer,"11,035","148,455","14,243.40",9.59
+"Renaissance Power & Gas, Inc.",OH,Power Marketer,93,237,20.5,8.65
+"Residents Energy, LLC",OH,Power Marketer,645,"2,592",211.4,8.16
+"Rushmore Energy, LLC",OH,Power Marketer,"5,064","48,450","3,508.00",7.24
+"SFE Energy Ohio, Inc.",OH,Power Marketer,279,156,12,7.69
+Santanna Energy Services,OH,Power Marketer,"4,474","42,651","2,517.00",5.9
+"Shipley Choice, LLC",OH,Power Marketer,495,"1,968",121.9,6.19
+"SmartEnergy Holdings, LLC",OH,Power Marketer,"7,660","103,895","7,287.00",7.01
+Source Power & Gas LLC,OH,Power Marketer,112,"1,468",109.6,7.47
+Sperian Energy Corp,OH,Power Marketer,"1,794","22,553","1,875.00",8.31
+"Star Energy Partners, LLC",OH,Power Marketer,"28,156","292,754","22,070.00",7.54
+"Starion Energy PA, Inc.",OH,Power Marketer,"5,114","60,668","5,327.10",8.78
+Switch Energy,OH,Power Marketer,"3,099","32,853","2,335.00",7.11
+Titan Gas LLC,OH,Power Marketer,"41,858","395,383","27,649.80",6.99
+Verde Energy USA,OH,Power Marketer,"19,376","177,576","15,184.00",8.55
+Viridian Energy PA LLC,OH,Power Marketer,506,"5,318",398,7.48
+Western Reserve Energy Services LLC,OH,Power Marketer,31,364,22,6.04
+"XOOM Energy Ohio, LLC",OH,Power Marketer,"13,298","136,576","10,353.80",7.58
+AEP Energy,PA,Power Marketer,"101,763","1,195,797","84,565.00",7.07
+AP Holdings LLC,PA,Power Marketer,"1,763","22,995",916,3.98
+Agera Energy LLC,PA,Power Marketer,135,"2,304",169,7.34
+"Agway Energy Services, LLC",PA,Power Marketer,"2,861","31,774","2,542.60",8
+"Alpha Gas and Electric, LLC",PA,Power Marketer,"2,302","20,136","1,897.00",9.42
+"Ambit Energy Holdings, LLC",PA,Power Marketer,"57,771","670,098","57,256.30",8.54
+American Power & Gas,PA,Power Marketer,"20,431","196,013","23,003.80",11.74
+Anthracite Power & Light,PA,Power Marketer,827,"10,000",678.5,6.79
+Aspirity Energy LLC,PA,Power Marketer,"1,995","4,367",380.6,8.72
+Astral Energy LLC,PA,Power Marketer,856,"7,945",584.2,7.35
+"Bounce Energy, Inc.",PA,Power Marketer,3,246,21.8,8.86
+CEI,PA,Power Marketer,"1,607","12,711","1,613.90",12.7
+Champion Energy Services,PA,Power Marketer,"4,263","43,329","4,123.00",9.52
+"Choice Energy, LLC d/b/a 4 Choice Energy",PA,Power Marketer,"3,610","33,317","3,382.00",10.15
+Clearview Electric Inc.,PA,Power Marketer,"12,255","107,883","14,670.70",13.6
+"Commerce Energy, Inc.",PA,Power Marketer,"17,869","147,052","13,599.50",9.25
+Consolidated Edison Sol Inc,PA,Power Marketer,"40,958","519,224","34,235.90",6.59
+Constellation Energy Power Choice Inc.,PA,Power Marketer,"6,654","63,904","6,654.70",10.41
+"Constellation Energy Services, Inc.",PA,Power Marketer,"1,018","9,091",879,9.67
+"Constellation NewEnergy, Inc",PA,Power Marketer,"38,936","387,615","28,952.00",7.47
+Direct Energy Services,PA,Power Marketer,"81,655","870,123","83,752.30",9.63
+"Discount Energy Group, LLC",PA,Power Marketer,"6,140","64,753","5,262.30",8.13
+Discount Power Inc - (CT),PA,Power Marketer,"4,793","41,597","4,670.10",11.23
+"ENGIE Retail, LLC",PA,Power Marketer,"37,687","399,294","29,796.00",7.46
+"Eligo Energy, LLC",PA,Power Marketer,"5,670","54,618","4,290.10",7.85
+"Energy Coop of New York, Inc",PA,Power Marketer,41,"31,447",33.5,0.11
+Energy Plus Holdings LLC,PA,Power Marketer,"59,898","603,000","67,125.00",11.13
+"Energy Services Providers, Inc",PA,Power Marketer,"41,246","401,328","36,830.80",9.18
+Energy.Me Midwest LLC,PA,Power Marketer,121,"6,618",538,8.13
+Entrust Energy,PA,Power Marketer,"1,196","10,335","1,067.00",10.32
+"Ethical Electric, Inc",PA,Power Marketer,"18,550","150,275","17,198.50",11.44
+Everyday Energy LLC,PA,Power Marketer,"7,152","66,265","4,656.00",7.03
+First Energy Solutions Corp.,PA,Power Marketer,"158,741","1,902,773","135,155.50",7.1
+"First Point Power, LLC",PA,Power Marketer,211,"4,645",318.7,6.86
+"Frontier Utilities, Inc.",PA,Power Marketer,"14,529","131,163","11,532.00",8.79
+"Great American Power, LLC",PA,Power Marketer,"21,305","259,621","19,809.80",7.63
+Green Mountain Energy Company,PA,Power Marketer,"69,457","653,922","57,826.40",8.84
+"HIKO Energy, LLC",PA,Power Marketer,"1,011","8,847",729.8,8.25
+"IDT Energy, Inc.",PA,Power Marketer,"43,339","369,721","34,982.70",9.46
+"Inspire Energy Holdings, LLC",PA,Power Marketer,"8,646","81,249","8,024.10",9.88
+"Interstate Gas Supply, Inc.",PA,Power Marketer,"48,656","450,331","36,990.00",8.21
+Just Energy,PA,Power Marketer,"6,479","59,217","5,442.60",9.19
+Liberty Power Corp.,PA,Power Marketer,"6,209","60,790","5,757.00",9.47
+"LifeEnergy, LLC",PA,Power Marketer,"6,640","23,447","1,771.70",7.56
+MP2 Energy LLC,PA,Power Marketer,112,279,12,4.3
+MPower Energy NJ LLC,PA,Power Marketer,226,252,20,7.94
+Marathon Power LLC,PA,Power Marketer,37,765,66.3,8.67
+"MidAmerican Energy Services, LLC",PA,Power Marketer,227,"2,839",177.2,6.24
+"NextEra Energy Services, LLC",PA,Power Marketer,"22,434","218,705","18,298.70",8.37
+"Nittany Energy, LLC",PA,Power Marketer,6,21,1.5,7.14
+"Nordic Energy Services, LLC",PA,Power Marketer,430,"8,248",612.9,7.43
+"North American Power and Gas, LLC",PA,Power Marketer,"49,651","524,776","50,131.00",9.55
+"Oasis Power, LLC",PA,Power Marketer,"17,235","219,043","19,015.50",8.68
+"Palmco Power PA, LLC",PA,Power Marketer,"6,375","48,622","7,948.00",16.35
+Park Power LLC,PA,Power Marketer,"10,591","114,298","12,118.00",10.6
+Planet Energy,PA,Power Marketer,"9,364","83,180","8,056.30",9.69
+"Plymouth Rock Energy, LLC",PA,Power Marketer,"1,349","6,349",612.9,9.65
+Public Power LLC (PA),PA,Power Marketer,"21,937","201,160","19,616.00",9.75
+Reliant Energy Northeast LLC,PA,Power Marketer,"199,840","2,277,512","202,522.40",8.89
+"ResCom Energy, LLC",PA,Power Marketer,13,68,6.7,9.85
+"Residents Energy, LLC",PA,Power Marketer,"3,576","26,669","2,276.60",8.54
+Respond Power LLC,PA,Power Marketer,"27,354","208,085","25,060.00",12.04
+"Rushmore Energy, LLC",PA,Power Marketer,"2,423","20,525","1,873.00",9.13
+SFE Energy Pennsylvania,PA,Power Marketer,"35,892","310,076","25,470.00",8.21
+"Shipley Choice, LLC",PA,Power Marketer,"16,707","168,159","15,012.70",8.93
+"SmartEnergy Holdings, LLC",PA,Power Marketer,"19,960","175,716","16,274.00",9.26
+"Spark Energy, LP",PA,Power Marketer,"10,520","77,503","8,094.10",10.44
+Sperian Energy Corp,PA,Power Marketer,"26,388","304,427","27,027.40",8.88
+"Star Energy Partners, LLC",PA,Power Marketer,"6,331","51,012","4,703.00",9.22
+"Starion Energy PA, Inc.",PA,Power Marketer,"15,694","134,560","11,637.60",8.65
+"Stream Energy Pennsylvania, LLC",PA,Power Marketer,"70,487","782,866","72,843.70",9.3
+"Sunwave Gas & Power Connecticut, Inc.",PA,Power Marketer,"4,496","62,576","3,582.00",5.72
+"Talen Energy Marketing, LLC",PA,Power Marketer,"95,662","1,446,513","111,697.80",7.72
+"Texpo Power, L.P.",PA,Power Marketer,"6,073","65,469","5,411.80",8.27
+The Energy Coop,PA,Cooperative,"2,600","22,141","2,490.10",11.25
+Titan Gas LLC,PA,Power Marketer,"4,483","15,494","1,069.00",6.9
+"TriEagle Energy, L.P.",PA,Power Marketer,"24,166","298,395","23,736.00",7.95
+"UGI Energy Services, Inc.",PA,Power Marketer,665,"8,326",589.6,7.08
+Verde Energy USA,PA,Power Marketer,"28,714","270,710","28,539.00",10.54
+Viridian Energy PA LLC,PA,Power Marketer,"9,089","77,585","7,164.00",9.23
+"WGL Energy Services, Inc.",PA,Power Marketer,"10,624","96,132","7,033.00",7.32
+"XOOM Energy Pennsylvania, LLC",PA,Power Marketer,"13,959","129,243","12,015.90",9.3
+Agera Energy LLC,RI,Power Marketer,"1,282","10,690",877,8.2
+"Ambit Energy Holdings, LLC",RI,Power Marketer,"4,357","32,466","3,172.30",9.77
+Clearview Electric Inc.,RI,Power Marketer,"14,250","65,347","8,339.00",12.76
+"Constellation Energy Services, Inc.",RI,Power Marketer,27,107,9.1,8.5
+Direct Energy Services,RI,Power Marketer,"3,047","9,833",796.3,8.1
+"ENGIE Retail, LLC",RI,Power Marketer,145,336,25,7.44
+"First Point Power, LLC",RI,Power Marketer,"2,186","18,455","1,784.90",9.67
+Liberty Power Corp.,RI,Power Marketer,3,187,20,10.7
+"North American Power and Gas, LLC",RI,Power Marketer,"15,999","136,578","15,806.20",11.57
+Town Square Energy,RI,Power Marketer,"1,624","11,099",941.8,8.49
+Viridian Energy LLC,RI,Power Marketer,"1,878","15,914","1,566.00",9.84
+"XOOM Energy Rhode Island, LLC",RI,Power Marketer,"1,071","7,601",785.6,10.34
+Adjustment 2016,CA,Other,"-87,239","-919,528","-67,883.00",0
+Adjustment 2016,CT,Other,"15,282","62,971","6,315.00",0
+Adjustment 2016,DC,Other,"6,567","324,740","34,671.70",0
+Adjustment 2016,DE,Other,"1,110","36,868","3,650.70",0
+Adjustment 2016,IL,Other,"-91,438","-291,289","15,705.50",0
+Adjustment 2016,MA,Other,"14,971","-252,438","-28,225.10",0
+Adjustment 2016,MD,Other,"7,439","219,421","22,363.10",0
+Adjustment 2016,ME,Other,"-4,349","3,387",896.1,0
+Adjustment 2016,MI,Other,33,"-2,682",-92.9,0
+Adjustment 2016,MT,Other,3,10,0.6,0
+Adjustment 2016,NH,Other,"-18,622","2,156",189.5,0
+Adjustment 2016,NJ,Other,"-1,858","208,716","24,249.10",0
+Adjustment 2016,NY,Other,"89,539","536,652","51,088.80",0
+Adjustment 2016,OH,Other,"11,090","303,559","18,743.50",0
+Adjustment 2016,PA,Other,"7,360","248,516","21,262.90",0
+Adjustment 2016,RI,Other,"1,011","38,702","4,228.90",0

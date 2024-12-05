@@ -1,0 +1,152 @@
+ Entity , State,Class of  Ownership,Number of Consumers,Sales (megawatthours),Revenue (thousand dollars),Average Retail Price (cents/kWh)
+3 Phases Renewables,CA,Power Marketer,119,"1,122",65,5.79
+"Commerce Energy, Inc.",CA,Power Marketer,"11,807","101,786","7,692",7.56
+Marin Energy Authority,CA,Power Marketer,"9,184","115,363","14,295",12.39
+Consolidated Edison Sol Inc,CT,Power Marketer,"30,971","362,061","31,590",8.73
+Direct Energy Services,CT,Power Marketer,"53,389","513,941","50,464",9.82
+Dominion Retail Inc,CT,Power Marketer,"69,207","723,351","66,992",9.26
+Energy Plus Holdings LLC,CT,Power Marketer,"30,959","328,094","41,235",12.57
+"Integrys Energy Services, Inc.",CT,Power Marketer,255,"3,779",339,8.98
+"MxEnergy Electric, Inc.",CT,Power Marketer,"51,306","401,447","37,475",9.33
+"Palmco Power CT, LLC",CT,Power Marketer,"4,450","16,691","1,633",9.78
+"Public Power & Utility, Inc.",CT,Power Marketer,"73,975","545,471","53,496",9.81
+"Spark Energy, LP",CT,Power Marketer,"11,728","147,650","12,550",8.50
+"Constellation NewEnergy, Inc",DC,Power Marketer,863,"5,421",499,9.20
+GEXA Corp.,DC,Power Marketer,145,"1,088",67,6.12
+Washington Gas Energy Services,DC,Power Marketer,"6,399","64,627","6,315",9.77
+GEXA Corp.,DE,Power Marketer,352,"3,091",192,6.22
+Washington Gas Energy Services,DE,Power Marketer,"7,204","82,786","8,171",9.87
+AEP Energy,IL,Power Marketer,"1,770","18,437","2,243",12.17
+"Ambit Energy Holdings, LLC",IL,Power Marketer,"9,991","32,777","2,086",6.36
+Champion Energy Services,IL,Power Marketer,"1,331","14,429",932,6.46
+"Constellation NewEnergy, Inc",IL,Power Marketer,"9,110","76,005","5,317",7.00
+Direct Energy Services,IL,Power Marketer,"18,267","105,126","6,751",6.42
+Dominion Retail Inc,IL,Power Marketer,"1,880","6,104",414,6.78
+Energy Plus Holdings LLC,IL,Power Marketer,"13,162","95,650","8,411",8.79
+"Energy Services Providers, Inc",IL,Power Marketer,"8,273","12,416",875,7.05
+First Energy Solutions Corp.,IL,Power Marketer,988,"8,303",521,6.27
+"Integrys Energy Services, Inc.",IL,Power Marketer,"13,725","114,690","6,961",6.07
+Liberty Power Corp.,IL,Power Marketer,402,"1,790",119,6.65
+"Spark Energy, LP",IL,Power Marketer,"40,591","261,666","17,977",6.87
+Consolidated Edison Sol Inc,MA,Power Marketer,"162,357","1,325,564","101,889",7.69
+Dominion Retail Inc,MA,Power Marketer,"112,331","977,662","89,830",9.19
+"Integrys Energy Services, Inc.",MA,Power Marketer,10,135,11,7.93
+Just Energy,MA,Power Marketer,"6,927","49,982","4,667",9.34
+"MxEnergy Electric, Inc.",MA,Power Marketer,"7,410","67,271","6,184",9.19
+"Public Power & Utility, Inc.",MA,Power Marketer,866,"4,033",444,11.01
+"Spark Energy, LP",MA,Power Marketer,12,135,15,11.19
+"Ambit Energy Holdings, LLC",MD,Power Marketer,"6,886","81,973","7,227",8.82
+"Commerce Energy, Inc.",MD,Power Marketer,921,"7,837",825,10.53
+Consolidated Edison Sol Inc,MD,Power Marketer,78,920,76,8.26
+Direct Energy Services,MD,Power Marketer,"36,943","455,912","41,501",9.10
+Dominion Retail Inc,MD,Power Marketer,"21,026","291,561","27,577",9.46
+Energy Plus Holdings LLC,MD,Power Marketer,"5,425","61,487","6,681",10.87
+"Energy Services Providers, Inc",MD,Power Marketer,46,6,  * ,8.33
+GEXA Corp.,MD,Power Marketer,61,504,28,5.62
+Gateway Energy Services Corp,MD,Power Marketer,834,"10,518",977,9.29
+"Public Power & Utility, Inc.",MD,Power Marketer,"16,646","64,742","6,378",9.85
+Reliant Energy Northeast LLC,MD,Power Marketer,15,41,4,8.78
+"Spark Energy, LP",MD,Power Marketer,"7,474","82,161","8,586",10.45
+"Stream Energy Maryland, LLC",MD,Power Marketer,"5,903","57,663","5,323",9.23
+Washington Gas Energy Services,MD,Power Marketer,"108,860","1,429,403","135,530",9.48
+"Competitive Energy Services, L",ME,Power Marketer,"1,006","5,388",692,12.85
+"Integrys Energy Services, Inc.",ME,Power Marketer,18,47,3,7.02
+NextEra Energy Power Marketing,ME,Power Marketer,"549,797","3,401,827","285,990",8.41
+"Integrys Energy Services, Inc.",NH,Power Marketer,100,"1,094",79,7.23
+"Ambit Energy Holdings, LLC",NJ,Power Marketer,"2,906",804,78,9.74
+Champion Energy Services,NJ,Power Marketer,178,793,88,11.10
+"Commerce Energy, Inc.",NJ,Power Marketer,41,360,41,11.39
+"Constellation NewEnergy, Inc",NJ,Power Marketer,"20,276","190,112","21,134",11.12
+Direct Energy Services,NJ,Power Marketer,"6,550","40,875","4,481",10.96
+Dominion Retail Inc,NJ,Power Marketer,"17,650","212,040","21,801",10.28
+Energy Plus Holdings LLC,NJ,Power Marketer,"16,614","154,551","18,339",11.87
+"Energy Services Providers, Inc",NJ,Power Marketer,"8,131","19,248","2,017",10.48
+GEXA Corp.,NJ,Power Marketer,207,705,40,5.66
+Gateway Energy Services Corp,NJ,Power Marketer,"28,947","354,893","40,376",11.38
+Hudson Energy Services,NJ,Power Marketer,42,"2,912",255,8.76
+"Integrys Energy Services, Inc.",NJ,Power Marketer,2,13,1,9.23
+"Palmco Power NJ, LLC",NJ,Power Marketer,"23,357","156,218","19,434",12.44
+"Plymouth Rock Energy, LLC",NJ,Power Marketer,393,"2,855",302,10.59
+"Public Power & Utility, Inc.",NJ,Power Marketer,"28,400","110,408","12,166",11.02
+Reliant Energy Northeast LLC,NJ,Power Marketer,127,670,61,9.06
+"Spark Energy, LP",NJ,Power Marketer,"3,385","15,525","1,542",9.93
+AP Holdings LLC,NY,Power Marketer,"2,590","11,334","1,149",10.14
+"Accent Energy Holdings, LLC",NY,Power Marketer,"32,149","149,007","18,901",12.68
+"Advantage Energy, Inc",NY,Power Marketer,"1,764","44,840","2,457",5.48
+"Agway Energy Services, LLC",NY,Power Marketer,"37,015","295,006","26,669",9.04
+"Ambit Energy Holdings, LLC",NY,Power Marketer,"166,899","1,363,499","100,250",7.35
+BluCo Energy LLC,NY,Power Marketer,266,"2,888",338,11.70
+"Columbia Utilities Power, LLC",NY,Power Marketer,"18,654","120,221","16,240",13.51
+Consolidated Edison Sol Inc,NY,Power Marketer,"40,294","296,852","28,529",9.61
+Direct Energy Services,NY,Power Marketer,"43,973","367,903","37,485",10.19
+Dominion Retail Inc,NY,Power Marketer,"1,461","11,247",762,6.78
+Energetix,NY,Power Marketer,"51,533","480,843","30,666",6.38
+"Energy Coop of New York, Inc",NY,Power Marketer,"5,725","77,615","3,968",5.11
+Energy Plus Holdings LLC,NY,Power Marketer,"43,384","290,678","44,671",15.37
+"Energy Services Providers, Inc",NY,Power Marketer,"33,849","304,978","24,698",8.10
+Gateway Energy Services Corp,NY,Power Marketer,"71,440","617,033","58,413",9.47
+Hudson Energy Services,NY,Power Marketer,"61,908","620,547","65,194",10.51
+"IDT Energy, Inc.",NY,Power Marketer,"186,311","1,008,875","117,403",11.64
+Just Energy New York Corp.,NY,Power Marketer,"112,900","746,191","86,981",11.66
+Liberty Power Corp.,NY,Power Marketer,830,"13,340","1,820",13.64
+Major Energy Electric Services,NY,Power Marketer,"17,170","167,875","17,330",10.32
+"MxEnergy Electric, Inc.",NY,Power Marketer,"32,029","207,267","19,494",9.41
+NOCO Electric,NY,Power Marketer,"11,000","116,460","6,022",5.17
+NYSEG Solutions Inc,NY,Power Marketer,"105,249","974,040","61,434",6.31
+"Plymouth Rock Energy, LLC",NY,Power Marketer,"2,010","69,011","6,010",8.71
+"Public Power & Utility, Inc.",NY,Power Marketer,"5,868","18,272","1,992",10.90
+"Robison Energy, LLC",NY,Power Marketer,"1,986","35,496","3,530",9.94
+"Spark Energy, LP",NY,Power Marketer,"34,644","272,386","30,200",11.09
+U.S. Energy Partners LLC,NY,Power Marketer,"2,755","23,600","1,201",5.09
+Village of Hilton,NY,Power Marketer,"1,247","12,394",771,6.22
+DPL Energy Resources,OH,Power Marketer,"8,222","92,373","6,939",7.51
+Direct Energy Services,OH,Power Marketer,"11,474","98,622","7,563",7.67
+Dominion Retail Inc,OH,Power Marketer,"57,495","765,217","49,026",6.41
+"Duke Energy Retail Sales, LLC",OH,Power Marketer,"86,929","1,150,023","79,158",6.88
+First Energy Solutions Corp.,OH,Power Marketer,"1,271,947","12,555,895","817,841",6.51
+AEP Energy,PA,Power Marketer,"4,872","55,228","5,098",9.23
+AP Holdings LLC,PA,Power Marketer,534,"3,353",198,5.91
+"Ambit Energy Holdings, LLC",PA,Power Marketer,"9,051","70,031","5,718",8.17
+Anthracite Power & Light,PA,Power Marketer,"1,043","13,359","1,139",8.52
+Champion Energy Services,PA,Power Marketer,"2,824","36,280","3,299",9.09
+"Commerce Energy, Inc.",PA,Power Marketer,"1,486","12,551","1,360",10.84
+Consolidated Edison Sol Inc,PA,Power Marketer,"37,431","491,735","41,583",8.46
+"Constellation NewEnergy, Inc",PA,Power Marketer,"1,774","10,996","1,032",9.39
+Direct Energy Services,PA,Power Marketer,"60,881","782,853","71,541",9.14
+Dominion Retail Inc,PA,Power Marketer,"333,786","3,704,712","320,316",8.65
+Energetix,PA,Power Marketer,"5,462","47,328","3,941",8.33
+Energy Plus Holdings LLC,PA,Power Marketer,"19,318","229,118","23,799",10.39
+"Energy Services Providers, Inc",PA,Power Marketer,"1,308",849,77,9.05
+First Energy Solutions Corp.,PA,Power Marketer,"102,730","1,137,696","78,219",6.88
+GEXA Corp.,PA,Power Marketer,504,"2,940",106,3.62
+Gateway Energy Services Corp,PA,Power Marketer,"22,660","290,640","28,997",9.98
+Hudson Energy Services,PA,Power Marketer,81,440,37,8.41
+"Integrys Energy Services, Inc.",PA,Power Marketer,3,17,1,7.65
+Just Energy,PA,Power Marketer,269,559,42,7.50
+Liberty Power Corp.,PA,Power Marketer,"1,550","22,934","2,125",9.27
+"MxEnergy Electric, Inc.",PA,Power Marketer,"55,324","604,895","52,493",8.68
+PPL EnergyPlus LLC,PA,Power Marketer,"57,215","272,700","23,301",8.54
+"Palmco Power PA, LLC",PA,Power Marketer,"13,943","120,246","11,321",9.41
+"Public Power & Utility, Inc.",PA,Power Marketer,"11,949","71,086","6,392",8.99
+Reliant Energy Northeast LLC,PA,Power Marketer,"1,648","3,256",252,7.73
+"Spark Energy, LP",PA,Power Marketer,"28,499","316,549","26,747",8.45
+"Stream Energy Pennsylvania, LLC",PA,Power Marketer,"60,741","668,628","56,907",8.51
+The Energy Coop,PA,Cooperative,"3,713","28,980","2,823",9.74
+Washington Gas Energy Services,PA,Power Marketer,"13,079","166,054","14,866",8.95
+"Integrys Energy Services, Inc.",RI,Power Marketer,4,152,12,7.76
+Balancing Item,CA,Other,481,"6,859",695,NA
+Balancing Item,CT,Other,"230,137","2,321,718","225,583",NA
+Balancing Item,DC,Other,"4,744","84,258","8,179",NA
+Balancing Item,DE,Other,528,"20,923","2,042",NA
+Balancing Item,IL,Other,"-17,032","78,504","5,091",NA
+Balancing Item,MA,Other,"-5,079","-232,939","-19,382",NA
+Balancing Item,MD,Other,"132,274","1,870,492","176,714",NA
+Balancing Item,ME,Other,"139,295","895,543","75,336",NA
+Balancing Item,MI,Other,67,865,64,NA
+Balancing Item,MT,Other,15,123,8,NA
+Balancing Item,NH,Other,"1,908","10,504",861,NA
+Balancing Item,NJ,Other,"104,177","1,440,869","162,336",NA
+Balancing Item,NY,Other,"36,744","-187,172","-17,597",NA
+Balancing Item,OH,Other,"27,808","100,783","6,256",NA
+Balancing Item,PA,Other,"70,276","1,551,360","132,154",NA
+Balancing Item,RI,Other,"2,926","30,630","2,390",NA
